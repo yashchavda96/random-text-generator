@@ -1,0 +1,45 @@
+html {
+	height: 100%;
+	box-sizing: border-box;
+}
+*,
+*:before,
+*:after {
+	box-sizing: inherit;
+}
+body {
+  background-color: #fdd835;
+	position: relative;
+	font-family: sans-serif;
+  margin: 0;
+  padding: 0;
+	min-height: 100%;
+}
+#app > .container {
+  margin-top: 100px;
+}
+
+.input-field label {
+  color: #000000;
+}
+
+.github-link {
+  text-decoration: underline;
+  color: #000000;
+}
+.options {
+  padding-left: "35px";
+}
+.options-row {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: "10px";
+  margin-bottom: "-5px";
+}
+.options > .row > label {
+  padding: 10px;
+  flex: 1 1 33.33%;
+}
+.bigFont {
+  font-size: 1.6rem;
+}
