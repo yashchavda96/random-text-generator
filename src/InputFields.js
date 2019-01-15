@@ -53,7 +53,7 @@ class InputFields extends Component {
               <label>Text type</label>
             </div>
             <div className="input-field col s12 m2 l2">
-            <a className="waves-effect waves-light btn yellow darken-2" onClick={this.handleSubmit}><i className="material-icons right">play_arrow</i>Go</a>
+            <a className="waves-effect waves-light btn yellow darken-2" rel="noopener noreferrer"  onClick={this.handleSubmit}><i className="material-icons right">play_arrow</i>Go</a>
             </div>
           </div>
         </div>

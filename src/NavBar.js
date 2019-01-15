@@ -8,7 +8,7 @@ class NavBar extends Component {
         <div className="container nav-wrapper">
           <a href="#!" className="brand-logo" style={{paddingLeft:"10px"}}>Random Text Generator</a>
           <ul id="nav-mobile" className="right hide-on-med-and-down">
-            <li><a href="https://github.com/yashchavda96">Github</a></li>
+            <li><a href="https://github.com/yashchavda96" rel="noopener noreferrer">Github</a></li>
           </ul>
         </div>
       </nav>
